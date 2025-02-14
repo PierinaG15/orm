@@ -3,7 +3,7 @@
 require 'vendor/autoload.php';
 require 'database.php';
 
-use App\Models\Actor;
+use app\models\Actor;
 
 // Obtener todos los registros
 $actors = Actor::all();
